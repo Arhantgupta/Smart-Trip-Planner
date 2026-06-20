@@ -1,6 +1,6 @@
 import requests
-
-API_KEY = "92bb04d820724e83916d627002422825"
+import streamlit as st
+API_KEY = st.secrets["GEOAPIFY_API_KEY"]
 
 def get_coordinates(city):
 
