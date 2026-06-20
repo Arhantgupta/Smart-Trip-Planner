@@ -1,21 +1,39 @@
 # Smart Trip Planner
 
-Smart Trip Planner is a Streamlit-based travel planning application.
+AI-powered trip planning website built using Python and Streamlit.
 
 ## Features
 
-- Real-time Weather
-- Budget Analysis
-- Budget Recommendations
-- Day-wise Itinerary
-- Interactive Map
-- PDF Download
+* Real-time Weather Information
+* Budget Analysis
+* Budget Recommendations
+* Day-wise Travel Itinerary
+* Interactive Destination Map
+* PDF Itinerary Download
 
 ## Technologies Used
 
-- Python
-- Streamlit
-- OpenWeatherMap API
-- Geoapify API
-- Folium
-- ReportLab
+* Python
+* Streamlit
+* OpenWeatherMap API
+* Geoapify API
+* Folium
+* ReportLab
+
+## Project Structure
+
+* app.py
+* weather.py
+* attractions.py
+* planner.py
+* budget_helper.py
+* maps.py
+* pdf_generator.py
+
+## Future Improvements
+
+* Hotel Recommendations
+* Restaurant Suggestions
+* Multi-city Planning
+* Better Attraction Maps
+* User Authentication
